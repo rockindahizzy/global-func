@@ -18,9 +18,3 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
-
-before(function () {
-  this.sayHello = () => {
-    console.log('Hello Global Function')
-  }
-})
